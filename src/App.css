@@ -1,3 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.quiz-box {
+  width: 25%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkgrey;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.question {
+  background-color: rgb(255, 229, 204);
+}
+
+.options {
+}
+
+.option-button {
+  margin: 8px;
+  width: 80%;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: rgb(173, 201, 255);
+}
+
+.result-message {
+  height: 60px;
+}
+
+.right-answer {
+  background-color: rgb(160, 255, 104);
+}
+
+.wrong-answer {
+  background-color: rgb(255, 104, 104);
+}
+
+.next-button {
+  margin: 0px 8px 16px 8px;
+  width: 80%;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: rgb(255, 183, 116);
+}
+
 .App {
   text-align: center;
 }
